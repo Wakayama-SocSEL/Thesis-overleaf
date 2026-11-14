@@ -1,0 +1,148 @@
+%%
+%% 修士論文
+%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%
+%% 利用するコマンドの準備
+%%
+
+%% 必須パッケージ
+\documentclass[11pt]{jreport}
+\usepackage{wuse_thesis}
+\usepackage{indentfirst}
+
+%% 追加パッケージ
+%\usepackage{graphicx}
+\usepackage{comment}
+\usepackage[dvipdfmx]{graphicx}
+\usepackage{url}
+\usepackage{latexsym}
+
+
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+
+
+% \lstset{
+% basicstyle=\small\ttfamily,
+% abovecaptionskip=0pt,
+% captionpos=b,
+% frame=tb,
+% framexleftmargin=2em,
+% numbers=left,
+% numberstyle={\scriptsize},
+% xleftmargin=\parindent
+% }
+
+\lstset{
+    basicstyle=\ttfamily\small,
+    frame=single,
+    breaklines=true,
+    backgroundcolor=\color{gray!10},
+    columns=fullflexible,
+}
+
+%ListingのキャプションがFigureになってしまうのをListingに直すコマンド
+\usepackage{caption}
+\makeatletter
+\let\MYcaption\@makecaption
+\makeatother
+\usepackage{caption}
+\makeatletter
+\let\@makecaption\MYcaption
+\makeatother
+
+\def\Underline{\setbox0\hbox\bgroup\let\\\endUnderline}
+\def\endUnderline{\vphantom{y}\egroup\smash{\underline{\box0}}\\}
+\def\|{\verb|}
+%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%
+%% 主に表紙を作成するための情報
+%%
+
+%% タイトル(修論の場合は英語表記も指定)
+\title{XXX}
+\etitle{XXX}
+
+%% 著者名(修論の場合は英語表記も指定)
+\author{XX XX}
+\eauthor{XXX XXX}
+
+%% 修士論文(M2用)
+\master
+
+%% 学科・クラスタ
+\department{システム工}
+
+%% 学生番号
+\studentid{SXXX}
+
+%% 卒業年度
+\gyear{2026}
+
+%% 論文提出日(修士の場合は月まで)
+\date{2027年2月}
+\edate{February 2027}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%
+%% 表紙・概要・目次
+%%
+
+\begin{document}
+
+%% 表紙
+\maketitle
+
+%% 概要
+\begin{abstract}
+XXX
+\end{abstract}
+
+%% 目次
+\tableofcontents
+
+%% 図目次
+%\listoffigures
+
+%% 表目次
+%\listoftables
+
+\newpage
+\pagenumbering{arabic}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{はじめに}
+
+
+\chapter{関連研究}\label{chap:background}
+
+
+\chapter{おわりに}\label{chap:end}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%
+%% 謝辞
+%%
+
+\begin{acknowledgements}
+
+本研究を進めるにあたりXXX
+\end{acknowledgements}
+
+
+\bibliographystyle{junsrt}
+\bibliography{@Master2026_XXX/references}
+
+
+\end{document}
