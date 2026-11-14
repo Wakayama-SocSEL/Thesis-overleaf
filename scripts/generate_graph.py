@@ -8,8 +8,8 @@ import os
 # 追跡したいファイルをリストで指定します。
 TARGET_FILES = [
     "@Bachelor2026_Arakawa/Bachelor2026_Arakawa.tex",  
-    "Bachelor2026_Ase/Bachelor2026_Ase.tex",  
-    "Bachelor2026_Kadota/Bachelor2026_Kadota.tex",
+    "@Bachelor2026_Ase/Bachelor2026_Ase.tex",  
+    "@Bachelor2026_Kadota/Bachelor2026_Kadota.tex",
     "@Bachelor2026_Mizuno/Bachelor2026_Mizuno.tex",
     "@Bachelor2026_Tai/Bachelor2026_Tai.tex",
     "@Bachelor2026_Tokumoto/Bachelor2026_Tokumoto.tex",
