@@ -7,18 +7,28 @@ import os
 # --- 設定 ---
 # 追跡したいファイルをリストで指定します。
 TARGET_FILES = [
-    "@Bachelor2025_Hashimoto/Bachelor2025_Hashimoto.tex",  
-    "@Bachelor2025_Noguchi/Bachelor2025_Noguchi.tex",  
-    "@Bachelor2025_Toyoshima/Bachelor2025_Toyoshima.tex",
-    "@Bachelor2025_Yoshida/Bachelor2025_Yoshida.tex",
-    "@Master2025_Kameoka/Master2025_Kameoka.tex"
+    "@Bachelor2026_Arakawa/Bachelor2026_Arakawa.tex",  
+    "Bachelor2026_Ase/Bachelor2026_Ase.tex",  
+    "Bachelor2026_Kadota/Bachelor2026_Kadota.tex",
+    "@Bachelor2026_Mizuno/Bachelor2026_Mizuno.tex",
+    "@Bachelor2026_Tai/Bachelor2026_Tai.tex",
+    "@Bachelor2026_Tokumoto/Bachelor2026_Tokumoto.tex",
+    "@Master2026_Iida/Master2026_Iida.tex",
+    "@Master2026_Horio/Master2026_Horio.tex",
+    "@Master2026_Kawasaki/Master2026_Kawasaki.tex",
+    "@Master2026_NoguchiT/Master2026_NoguchiT.tex"
 ] 
 FILE_LABELS = {
-    "@Bachelor2025_Hashimoto/Bachelor2025_Hashimoto.tex": "Hashimoto",
-    "@Bachelor2025_Noguchi/Bachelor2025_Noguchi.tex": "Noguchi",
-    "@Bachelor2025_Toyoshima/Bachelor2025_Toyoshima.tex": "Toyoshima",
-    "@Bachelor2025_Yoshida/Bachelor2025_Yoshida.tex": "Yoshida",
-    "@Master2025_Kameoka/Master2025_Kameoka.tex": "Kameoka"
+    "@Bachelor2026_Arawak/Bachelor2026_Arakawa.tex": "Arakawa",
+    "@Bachelor2026_Ase/Bachelor2026_Ase.tex": "Ase",
+    "@Bachelor2026_Kadota/Bachelor2026_Kadota.tex": "Kadota",
+    "@Bachelor2026_Mizuno/Bachelor2026_Mizuno.tex": "Mizuno",
+    "@Bachelor2026_Tai/Bachelor2026_Tai.tex": "Tai",
+    "@Bachelor2026_Tokumoto/Bachelor2026_Tokumoto.tex": "Tokumoto",
+    "@Master2026_Iida/Master2026_Iida.tex": "Iida",
+    "@Master2026_Horio/Master2026_Horio.tex": "Horio",
+    "@Master2026_Kawasaki/Master2026_Kawasaki.tex": "Kawasaki",
+    "@Master2026_NoguchiT/Master2026_NoguchiT.tex": "NoguchiT"
 }
 DATA_FILE = "data/line_count_history.json"
 GRAPH_FILE = "docs/line_count_graph.svg"
@@ -42,7 +52,7 @@ def collect_line_count_history(file_paths):
         stderr=subprocess.DEVNULL
     ).strip()
     full_history = {} 
-    cutoff_timestamp = 1763902800   # 2025年11月24日午前6時（日本時間, JST, UTC+9）
+    cutoff_timestamp = 1794668400   # 2026年11月15日午前0時（日本時間, JST, UTC+9）
     for file_path in file_paths:
         file_history = []
         try:
