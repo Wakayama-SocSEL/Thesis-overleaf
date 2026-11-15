@@ -19,7 +19,7 @@ TARGET_FILES = [
     "@Master2026_NoguchiT/Master2026_NoguchiT.tex"
 ] 
 FILE_LABELS = {
-    "@Bachelor2026_Arawak/Bachelor2026_Arakawa.tex": "Arakawa",
+    "@Bachelor2026_Arakawa/Bachelor2026_Arakawa.tex": "Arakawa",
     "@Bachelor2026_Ase/Bachelor2026_Ase.tex": "Ase",
     "@Bachelor2026_Kadota/Bachelor2026_Kadota.tex": "Kadota",
     "@Bachelor2026_Mizuno/Bachelor2026_Mizuno.tex": "Mizuno",
