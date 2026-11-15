@@ -1,12 +1,42 @@
 {
-    "@Bachelor2026_Arakawa/Bachelor2026_Arakawa.tex": [],
+    "@Bachelor2026_Arakawa/Bachelor2026_Arakawa.tex": [
+        {
+            "date": 1794763242,
+            "lines": 315,
+            "hash": "3be9bf99fbf8d49ba66e36db9caf23e3ae2717c5"
+        }
+    ],
     "@Bachelor2026_Ase/Bachelor2026_Ase.tex": [],
     "@Bachelor2026_Kadota/Bachelor2026_Kadota.tex": [],
     "@Bachelor2026_Mizuno/Bachelor2026_Mizuno.tex": [],
     "@Bachelor2026_Tai/Bachelor2026_Tai.tex": [],
     "@Bachelor2026_Tokumoto/Bachelor2026_Tokumoto.tex": [],
-    "@Master2026_Iida/Master2026_Iida.tex": [],
-    "@Master2026_Horio/Master2026_Horio.tex": [],
-    "@Master2026_Kawasaki/Master2026_Kawasaki.tex": [],
-    "@Master2026_NoguchiT/Master2026_NoguchiT.tex": []
+    "@Master2026_Iida/Master2026_Iida.tex": [
+        {
+            "date": 1794763242,
+            "lines": 148,
+            "hash": "3be9bf99fbf8d49ba66e36db9caf23e3ae2717c5"
+        }
+    ],
+    "@Master2026_Horio/Master2026_Horio.tex": [
+        {
+            "date": 1794763242,
+            "lines": 148,
+            "hash": "3be9bf99fbf8d49ba66e36db9caf23e3ae2717c5"
+        }
+    ],
+    "@Master2026_Kawasaki/Master2026_Kawasaki.tex": [
+        {
+            "date": 1794763242,
+            "lines": 148,
+            "hash": "3be9bf99fbf8d49ba66e36db9caf23e3ae2717c5"
+        }
+    ],
+    "@Master2026_NoguchiT/Master2026_NoguchiT.tex": [
+        {
+            "date": 1794763242,
+            "lines": 148,
+            "hash": "3be9bf99fbf8d49ba66e36db9caf23e3ae2717c5"
+        }
+    ]
 }
